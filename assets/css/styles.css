@@ -1899,7 +1899,7 @@ img.lazy {
 }
 
 img.rounded_border {
-    border-radius: 50%;
+    border-radius: 5%;
     border:1px solid white;
 }
 
@@ -1908,22 +1908,6 @@ img.rounded_border.hover_effect {
     transition: all 0.4s;
 }
 img.rounded_border.hover_effect:hover {
-    border-color:rgba(255,255,255,0);
-    -webkit-box-shadow: 0 0 0 4px #fff;
-    -moz-box-shadow:    0 0 0 4px #fff;
-    box-shadow:         0 0 0 4px #fff;
-}
-
-img.square_border {
-    border-radius: 5%;
-    border:1px solid white;
-}
-
-img.square_border.hover_effect {
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-}
-img.square_border.hover_effect:hover {
     border-color:rgba(255,255,255,0);
     -webkit-box-shadow: 0 0 0 4px #fff;
     -moz-box-shadow:    0 0 0 4px #fff;
