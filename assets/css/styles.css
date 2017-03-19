@@ -1914,6 +1914,22 @@ img.rounded_border.hover_effect:hover {
     box-shadow:         0 0 0 4px #fff;
 }
 
+img.square_border {
+    border-radius: 5%;
+    border:1px solid white;
+}
+
+img.square_border.hover_effect {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+img.square_border.hover_effect:hover {
+    border-color:rgba(255,255,255,0);
+    -webkit-box-shadow: 0 0 0 4px #fff;
+    -moz-box-shadow:    0 0 0 4px #fff;
+    box-shadow:         0 0 0 4px #fff;
+}
+
 img.pull-left,
 img.pull-right {
     height:auto !important;
