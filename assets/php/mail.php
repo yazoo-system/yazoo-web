@@ -3,9 +3,9 @@
 /* =====================================================
  * change $email_to and $email_form
  * ===================================================== */
-$email_to = "your_email@yourdomain.com"; // the email address to which the form sends submissions
-$email_from = "do-not-reply@yourdomain.com"; // the email address used as "From" when submissions are sent to the $email_to above (important that it has the same domain as the domain of your site - unless you have configured your server's mail settings)
-$email_subject = "Contact Form submitted";
+$email_to = "yazoo260@gmail.com"; // the email address to which the form sends submissions
+$email_from = "do-not-reply@gmail.com"; // the email address used as "From" when submissions are sent to the $email_to above (important that it has the same domain as the domain of your site - unless you have configured your server's mail settings)
+$email_subject = "官網來的新訊息唷！";
 
 // check CAPTCHA code first
 session_start();
