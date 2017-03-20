@@ -43,7 +43,7 @@ if(isset($_POST['email']))
     $error_message = "";
 
     // name
-    $name_exp = "/^[a-z0-9 .\-]+$/i";
+    $name_exp = "/^[a-z0-9\u4e00-\u9fa5 .\-]+$/i";
     if (!preg_match($name_exp,$name))
     {
         $this_error = 'Please enter a valid name.';
