@@ -128,7 +128,7 @@ dt {
 /* -------------- Bootstrap Tables ----------------- */
 
 table {
-    text-align: left;
+    text-align: center;
 }
 .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
     background-color: transparent;
